@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container{
+    background-image: linear-gradient(#292a30 .1em, transparent .1em)linear-gradient(90deg, #292a30 .1em, transparent .1em);
+    background-size: 4em 4em;
+    height: 6vh;
+}
+
+#card{
+    min-width: 300px;
+    min-height: 350px;
+    background-color: #ffffff;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    cursor: pointer;
+    position: fixed;
+    padding: 12px;
+}
+#card .flex-options{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+#card h3{
+    margin-bottom: 8px;
+}
+#card input{
+    width: 100%;
+    padding: 7px;
+    background-color: #ddd;
+    border: none;
+}
+#card input:focus{
+    border: none;
+}
+
+
+
+  
+  .note{
+    min-width: 120px;
+    min-height: 150px;
+    background-color: #bbb;
+    border-radius: 2px;
+    cursor: pointer;
+    position: fixed;
+    padding: 12px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+  
+.delete-btn {
+background: #cde6f8;
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+width: 40px;
+padding: 3px ;
+
+}
+  
+.createNote {
+background: #cde6f8;
+width: 40px;
+padding: 3px ;
+border: none;
+}
+.createNote:hover, .delete-btn:hover{
+    background: #afcce0;
+}
+
+.note-text{
+background: transparent;
+color: #fff;
+border: none;
+margin: 8px 4px ;
+padding: 7px;
+min-width: 180px;
+min-height: 200px;
+}
+.note-text:focus{
+    outline: none;
+}
+.note-text::placeholder{
+    color: #fff;
+}
